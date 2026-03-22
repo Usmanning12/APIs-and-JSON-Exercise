@@ -22,6 +22,11 @@ namespace APIsAndJSON
                 Console.WriteLine("\n--------------------\n");
                 
             }
+
+
+            OpenWeatherMapAPI.GetWeatherMap();
+
+
         }
     }
 }
