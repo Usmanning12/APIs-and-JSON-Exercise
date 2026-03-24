@@ -11,6 +11,13 @@ namespace APIsAndJSON
     internal class OpenWeatherMapAPI
     {
         private static string apiKey = "86924eafbff9ea748843b429936359fc";
+        
+        private static string BuildWeatherUrl(string city)
+        {
+            return $"https://api.openweathermap.org/data/2.5/weather?q={city}&units=imperial&appid={apiKey}";
+
+        }
+
 
         public  static void GetWeatherMap()
         {
@@ -19,7 +26,7 @@ namespace APIsAndJSON
                 var client = new HttpClient();
                 Console.WriteLine("Enter a city");
                 var city = Console.ReadLine().Trim();
-                var weatherUrl = $"https://api.openweathermap.org/data/2.5/weather?q={city}&units=imperial&appid={apiKey}";
+                var weatherUrl = BuildWeatherUrl(city);
                 var response = client.GetStringAsync(weatherUrl).Result;
                 var weatherData = JObject.Parse(response);
                 if (weatherData["main"]!= null)
@@ -38,8 +45,7 @@ namespace APIsAndJSON
             {
                 Console.WriteLine("City not found or network error, try again");
             }
-            
-            
+
             
 
            
