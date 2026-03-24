@@ -10,15 +10,13 @@ namespace APIsAndJSON
 {
     internal class OpenWeatherMapAPI
     {
+        private static string apiKey = "86924eafbff9ea748843b429936359fc";
 
-        public static void GetWeatherMap()
+        public  static void GetWeatherMap()
         {
-            
-            
             try
             {
                 var client = new HttpClient();
-                var apiKey = "86924eafbff9ea748843b429936359fc";
                 Console.WriteLine("Enter a city");
                 var city = Console.ReadLine().Trim();
                 var weatherUrl = $"https://api.openweathermap.org/data/2.5/weather?q={city}&units=imperial&appid={apiKey}";
