@@ -2,6 +2,23 @@
 bin/
 obj/
 
+# Rider IDE
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio
+.vs/
+*.vscode/
+*.DS_Store
+
+# NuGet
+*.nupkg# Build folders
+bin/
+obj/
+
 # Rider/VS files
 *.suo
 *.user
@@ -10,3 +27,4 @@ obj/
 
 # OS files
 .DS_Store
+
