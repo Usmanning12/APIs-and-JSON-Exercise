@@ -5,18 +5,30 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json.Linq;
+using Microsoft.Extensions.Configuration;
+
+
 
 namespace APIsAndJSON
 {
     internal class OpenWeatherMapAPI
     {
-        private static string apiKey = "86924eafbff9ea748843b429936359fc";
-        
-        private static string BuildWeatherUrl(string city)
-        {
-            return $"https://api.openweathermap.org/data/2.5/weather?q={city}&units=imperial&appid={apiKey}";
+        private static string apiKey;
 
+        static OpenWeatherMapAPI()
+        {
+            var config = new ConfigurationBuilder()
+                .AddJsonFile("appsettings.json")
+                .Build();
+            apiKey = config["OpenWeather:ApiKey"];
         }
+        
+        
+            private static string BuildWeatherUrl(string city)
+            {
+                return $"https://api.openweathermap.org/data/2.5/weather?q={city}&units=imperial&appid={apiKey}";
+            }
+        
 
 
         public  static void GetWeatherMap()
@@ -43,7 +55,7 @@ namespace APIsAndJSON
             }
             catch (Exception e)
             {
-                Console.WriteLine("City not found or network error, try again");
+                Console.WriteLine(e.Message);
             }
 
             

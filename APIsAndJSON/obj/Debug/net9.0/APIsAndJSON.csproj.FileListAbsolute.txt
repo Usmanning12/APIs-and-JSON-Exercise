@@ -31,3 +31,16 @@ C:/Users/cynth/Desktop/NetOverHaul/APIs-and-JSON-Exercise/APIsAndJSON/obj/Debug/
 /Users/darronmanning/Desktop/repos/APIs-and-JSON-Exercise/APIsAndJSON/obj/Debug/net9.0/APIsAndJSON.pdb
 /Users/darronmanning/Desktop/repos/APIs-and-JSON-Exercise/APIsAndJSON/obj/Debug/net9.0/APIsAndJSON.genruntimeconfig.cache
 /Users/darronmanning/Desktop/repos/APIs-and-JSON-Exercise/APIsAndJSON/obj/Debug/net9.0/ref/APIsAndJSON.dll
+/Users/darronmanning/Desktop/repos/APIs-and-JSON-Exercise/APIsAndJSON/bin/Debug/net9.0/Microsoft.Extensions.Configuration.dll
+/Users/darronmanning/Desktop/repos/APIs-and-JSON-Exercise/APIsAndJSON/bin/Debug/net9.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/darronmanning/Desktop/repos/APIs-and-JSON-Exercise/APIsAndJSON/bin/Debug/net9.0/Microsoft.Extensions.Primitives.dll
+/Users/darronmanning/Desktop/repos/APIs-and-JSON-Exercise/APIsAndJSON/bin/Debug/net9.0/appsettings.json
+/Users/darronmanning/Desktop/repos/APIs-and-JSON-Exercise/APIsAndJSON/bin/Debug/net9.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/darronmanning/Desktop/repos/APIs-and-JSON-Exercise/APIsAndJSON/bin/Debug/net9.0/Microsoft.Extensions.Configuration.FileExtensions.dll
+/Users/darronmanning/Desktop/repos/APIs-and-JSON-Exercise/APIsAndJSON/bin/Debug/net9.0/Microsoft.Extensions.Configuration.Json.dll
+/Users/darronmanning/Desktop/repos/APIs-and-JSON-Exercise/APIsAndJSON/bin/Debug/net9.0/Microsoft.Extensions.FileProviders.Abstractions.dll
+/Users/darronmanning/Desktop/repos/APIs-and-JSON-Exercise/APIsAndJSON/bin/Debug/net9.0/Microsoft.Extensions.FileProviders.Physical.dll
+/Users/darronmanning/Desktop/repos/APIs-and-JSON-Exercise/APIsAndJSON/bin/Debug/net9.0/Microsoft.Extensions.FileSystemGlobbing.dll
+/Users/darronmanning/Desktop/repos/APIs-and-JSON-Exercise/APIsAndJSON/bin/Debug/net9.0/System.IO.Pipelines.dll
+/Users/darronmanning/Desktop/repos/APIs-and-JSON-Exercise/APIsAndJSON/bin/Debug/net9.0/System.Text.Encodings.Web.dll
+/Users/darronmanning/Desktop/repos/APIs-and-JSON-Exercise/APIsAndJSON/bin/Debug/net9.0/System.Text.Json.dll
