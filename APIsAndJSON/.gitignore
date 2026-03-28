@@ -1,0 +1,12 @@
+# Build folders
+bin/
+obj/
+
+# Rider/VS files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# OS files
+.DS_Store
